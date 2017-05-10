@@ -1,0 +1,490 @@
+body
+{
+	background : black;
+}
+#corpPage
+{
+	width : 1024px;
+	border-top : 4px solid #01a279;
+	font-size : 0px;
+	font-family : Arial;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.hidden
+{
+	
+	display:none;
+}
+p
+{
+margin : 0px;
+padding : 0px;	
+}
+h2
+{
+	font-size : 19px;
+}
+
+/*fin du css sur les balises generales */
+
+/*HEADER*/
+header
+{
+	width : 100%;
+	margin:0px;
+	padding : 0px;
+	background : white;
+
+}
+.MENU
+{
+	background : white;
+	height : 60px;
+}
+
+#banniere
+{
+	
+	display : inline-block;
+	text-align : left;
+	vertical-align : top; 
+}
+.topBar
+{
+	font-size : 11px;
+	height : 60px;
+	line-height :60px;
+	display : inline-block;
+	margin-left : 250px;
+	
+	
+}
+.aTopBar
+{
+	display : inline-block;
+	margin-left:15px;
+	margin-right : 15px;
+	color : #b1b1b1;
+	height : 60px;
+	width : 60px;
+	text-align : center;
+	text-decoration : none;
+	font-weight : bold;
+}
+.aTopBar:hover
+{
+	background : #01a279;
+}
+.aTopBarImg
+{
+	display : block;
+	height : 59px;
+	width : 176px;
+	background : url('../images/exo4_03.jpg');
+}
+
+.topBar .aTopBarPlus
+{
+	background : #01a279;
+}
+.imgTop
+{
+	width : 100%;
+	height : 325px;
+	background : url('../images/exo4_055.jpg');
+
+}
+.imgTop>h1
+{
+	font-size : 40px;
+	text-align : left;
+	padding : 50px 0 0 80px;
+	margin : 0;
+}
+.imgTop>a
+{
+	display : inline-block;
+	width : 130px;
+	height : 30px;
+	margin-left : 80px;
+	text-align : center;
+	line-height : 35px;
+	font-size : 12px;
+	color : white;
+	border : 1px solid white;
+	text-decoration : none;
+}
+.imgTop>h1>strong
+{
+	font-size : 60px;
+}
+/* FIN DU HEADER */ 
+/* DEBUT DU MILIEU DE PAGE, PREMIERE BANDE */
+#milieuPage
+{
+	background : white;
+
+}
+.bandeauText
+{
+
+	font-size : 11px;
+	text-align : center;
+	height : 90px;
+	line-height : 90px;
+	background : white;
+}
+.bandeauText>p>em
+{
+	color : #b1b1b1;
+}
+
+/*DEUXIEME BANDE (CELLE LEGEREMENT PLUS FONCE) */
+.bandeauParagraphe
+{
+	
+	width : 100%;
+	background : rgb(250,250,250);
+	padding-bottom : 42px;
+	text-align : center;
+}
+.paragraph
+{
+	display : inline-block;
+	width : 215px;
+	vertical-align : top;
+	
+	text-align : left;
+	
+	margin:30px 25px 0 0;
+	
+}
+hr    
+{
+	width : 70px;
+	margin-left :0px;
+}
+
+.paragraph>h2
+{
+	font-size : 19px;
+	margin : 0px;
+}
+.paragraph>p
+{
+	font-size : 11px;
+	margin : 0px;
+}
+.aParagraph
+{
+	color : rgb(102,197,173);
+	text-decoration : none;
+}
+/*FIN DEUXIEME BANDE */
+.separateur
+{
+	width : 100%;
+	height : 30px;
+	background : white;
+}
+
+/* DEBUT BANDEAU D'IMAGE */
+
+
+.bandImg  	/* DEFINI NOS 3 BLOCK CONTENANT NOS IMAGES*/
+{
+	width :	33%;
+
+	height : 300px;
+	display : inline-block;
+	vertical-align : top;
+	font-size : 0px;
+	margin : 0 0 0 0;
+	
+}
+.bandMargin
+{
+	margin-right : 0.5%
+}
+.bandMarginRight
+{
+	margin-right : 1.5%;
+}
+.bandMarginBot
+{
+	margin-bottom : 1.5%;
+}
+.bandMarginBot3
+{
+	margin-bottom : 5%;
+}
+.bandMarginTop 
+{
+	margin-top : 6%;
+}
+.margBandImg
+{
+	width : 1%;
+	height : 270px;
+	background : white;
+	display :inline-block;
+}
+
+
+.smallImg
+{
+	width : 32.8333%;
+	height : 32.8333%;
+	display : inline-block;
+	vertical-align : top;
+	background : blue;
+	overflow : hidden;
+	
+}
+.mediumWidth
+{
+	width : 65.6666%;
+	height : 32.8333%;
+	background : green;
+	display :inline-block;
+	vertical-align : top;
+	overflow : hidden;
+
+}
+.mediumHeight
+{
+	width : 32.8333%;
+	height : 65.6666%;
+	background : purple;
+	display :inline-block;
+	vertical-align : top;
+	overflow : hidden;
+
+
+}
+.small1Img2
+{
+	width : 100%;
+	height : 93px;
+}
+.smallImg2
+{
+	
+	display : inline-block;
+	background : yellow;
+	vertical-align : top;
+	width : 100%;
+	height : 50%;
+	
+
+}
+.bigImg
+{
+	width : 65.6666%;
+	height : 65.6666%;
+	background : red;
+	display :inline-block;
+	vertical-align : top;
+	overflow : hidden;
+
+}
+.smallImg>img
+{
+	width : 100%;
+	height : 100%;
+}
+.mediumWidth>img
+{
+	width : 100%;
+	height : 100%;
+}
+.mediumHeight>img
+{
+	width : 100%;
+	height : 100%;
+} 	
+.bigImg>img
+{
+	width : 100%;
+	height : 100%;
+}
+
+.imgBandImg1 
+{ 
+	display : inline-block;
+	vertical-align : top;
+
+}
+.linkBandImg1
+{
+	display : inline-block;
+
+	background : #01a279;
+	font-size : 30px;
+	line-height : 60px;
+	text-align : center;
+	text-decoration : none;
+}	 
+.linkBandImg1>a:link
+{
+	color : white;
+	text-decoration : none;
+	
+	
+}
+.linkBandImg1>a:visited
+{
+	color : white;
+}
+
+.bandImg3>img
+{
+	vertical-align : top;
+}
+.smallImg2>a
+{
+	display : inline-block;
+	width : 100%;
+	height : 100%;
+	background : #01a279;
+	font-size : 30px;
+	line-height : 90px;
+	text-align : center;
+	color : white;
+	text-decoration : none;
+}
+.linkBandImg3
+{
+
+	
+	vertical-align : top;
+
+}
+.bandImgMini
+{
+	display : inline-block;
+	height : 65.6666%;
+	width : 32.8333%;
+	vertical-align : top;
+	overflow: hidden;
+}
+/* FIN BANDEAU D'IMAGE */
+/* BANDEAU AVEC LES IMAGES DES SPONSORS */
+.bandeauSponsor
+{
+	padding-top : 40px;
+
+	text-align : center;
+	padding-bottom : 50px;
+}
+.bandeauSponsor>hr
+{
+	margin-left : 46%;
+}
+.bandeauSponsor>p
+{
+	font-size : 11px;
+	margin-bottom : 10px;
+}
+.imgSponsor
+{
+
+	width : 850px;
+	margin : 0 auto 0 auto;
+}
+.imgSponsor>img
+{
+	
+	margin-right : 20px;
+	margin-left : 0px;
+}
+.boxSponsorImg
+{
+	display : inline-block;
+	width : 120px;
+	text-align : left;
+}
+/*FIN DU BANDEAU AVEC LES IMAGES DES SPONSORS */
+/*DEBUT DU FOOTER */
+footer
+{/*
+	background : #373737;
+	padding-left : 120px;
+	padding-top : 20px;
+	margin-bottom : 1200px;*/
+}
+.bottomBar
+{
+	
+	background : #373737;
+	padding-left : 120px;
+	padding-top : 20px;
+	
+
+}
+.footerParagraph
+{
+	display : inline-block;
+	font-size : 11px;
+	width : 25%;
+	vertical-align : top;
+	color : white;
+	margin-right : 20px;
+}
+.footerParagraph>h3
+{
+	font-size : 11px;
+	font-weight : bold;
+}
+.linkFooter
+{
+	color : #01a279;
+	text-decoration : none;
+}
+.footerParagraph>ul
+{
+	list-style-type : circle;
+	padding :0 0 0 10px;
+	list-style-image : url('../images/iconeFleche.png');
+}
+li>p
+{
+	font-size : 9px;
+}
+.footerImg
+{
+
+	font-size : 0px;
+	width : 250px;
+	
+}
+/*FINAL BAR*/
+.finalBar
+{
+	background : #202020;
+	font-size : 12px;
+	width : 1024px;
+	color : white;
+	line-height : 45px;
+}
+.copyright
+{
+	display : inline-block;
+	margin-left : 120px;
+}
+.finalMenu
+{
+	display : inline-block;
+	margin-left : 300px;
+	
+}
+.finalMenu>a
+{
+	color : white;
+	text-decoration : none;
+	margin-right : 15px;
+}
+/*FIN DE FINAL BAR*/
+/* FIN DU FOOTER */
